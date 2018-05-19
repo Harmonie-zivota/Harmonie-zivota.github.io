@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="contact.js"></script>
 	</head>
 	<body class="subpage">
 
@@ -53,8 +55,37 @@
 	              <b>Facebook:</b> <a href="https://www.facebook.com/najdisvouradost/">www.facebook.com/najdisvouradost/</a><br><br>
 					</div>
 				</div>
-			</section>
 
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<form method="post" action="#">
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="name" id="name" value="" placeholder="Vaše jméno" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="email" id="email" value="" placeholder="Váš email" />
+									</div>
+									<!-- Break -->
+									<div class="12u$">
+										<textarea name="message" id="message" placeholder="Vaše zpráva" rows="6"></textarea>
+									</div>
+									<!-- Break -->
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Odeslat zprávu" id="submit" /></li>
+											<li><input type="reset" value="Vyčistit" class="alt" /></li>
+											<li id="form-response"></li>
+											<li id="gdpr">Odesláním formuláře souhlasíte s <a href="obchodnipodminky.html" target="_blank">všeobecnými obchodními podmínkami</a> a souhlasíte s <a href="osobniudaje.html" target="_blank">poskytnutím osobních údajů</a>.</li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
