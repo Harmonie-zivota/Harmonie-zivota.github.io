@@ -1,167 +1,111 @@
 <!DOCTYPE HTML>
 <!--
-Hielo by TEMPLATED
-templated.co @templatedco
-Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-<head>
+	<head>
 	<title>Najdi svou radost</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="contact.js"></script>
+	</head>
+	<body class="subpage">
 
-	<!-- Header -->
-	<header id="header" class="alt">
-		<div class="logo"><a href="index.html"> <span>Pavla Kubecová</span></a></div>
-	</header>
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Pavla Kubecová</a></div>
+				<a href="#menu">Menu</a>
+			</header>
 
-	<!-- Banner -->
-	<section class="banner full">
-		<article>
-			<img src="images/frank-mckenna-127338.jpg" alt="" />
-			<div class="inner">
-				<header>
-					<p>kvantová terapie, osobní konstelace a další metody, které Vám pomohou najít vnitřní klid a radost ze života.</p>
-					<!--<h2>Najdi svou radost</h2>-->
-				</header>
-			</article>
-
-			<article>
-				<img src="images/jasper-boer-20736.jpg" alt="" />
-				<div class="inner">
-					<header>
-						<p>Je to Tvoje mysl, která vytváří tento svět.<br />Buddha</p>
-
-					</header>
-				</article>
-
-				<article>
-					<img src="images/austin-neill-139496.jpg" alt="" />
-					<div class="inner">
-						<header>
-							<p>Vaše štěstí nezávisí na světovém míru. Naopak, světový mír je závislý na tom, zda jste šťastní.<br/>Doreen Virtue</p>
-						</header>
-				</div>
-			</article>
-		</section>
+		<!-- Nav -->
+			<!-- <nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Domů</a></li>
+					<li><a href="techniky.html">Metody</a></li>
+					<li><a href="Pomoc.html">Jak Vám mohu pomoci</a></li>
+					<li><a href="Omne.html">O mně</a></li>
+				</ul>
+			</nav> -->
 
 		<!-- One -->
-		<section id="one" class="wrapper style2">
-			<div class="inner">
-				<div class="grid-style">
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Osobní konstelace</h2>
+					</header>
+				</div>
+			</section>
 
-					<div>
-						<div class="box">
-							<div class="image fit">
-								<img src="images/photo-149.jpeg" alt="" />
-							</div>
-							<div class="content">
-								<header class="align-center">
-											<h2>S čím Vám pomohu</h2>
-								</header>
-								<ul>
-									<li>Psychika, osobní rozvoj	- strach, stres, nedostatek sebevědomí, psychosomatická onemocnění...</li>
-									<li>Čištění rodinné zátěže - opakující se negativní vzorce, nedořešené a nevyřčené problémy, odpuštění...</li>
-									<br /><br /><br />
-									<footer class="align-center">
-										<a href="Pomoc.html" class="button alt">Více</a>
-									</footer>
-								</ul>
-							</div>
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							 	<span class="image right"><img src="images/photo-1471644778460-220908b75485.jpeg" alt="" /></span>
+								<b>Telefon:</b> +420 732 945 810<br><br>
+							 	<b>E-mail:</b> <a href="mailto:kubecova.pavla@gmail.com">kubecova.pavla@gmail.com</a><br><br>
+								<b>Adresa:</b> Pod Lysinami 477/8, Praha 4 <br><br>
+								<b>Skype:</b> Pavla Kubecová<br><br>
+								<b>Číslo účtu:</b> 2901415552/2010 <br><br>
+								<b>IČO:</b> 06991874<br><br>
+	              <b>Facebook:</b> <a href="https://www.facebook.com/najdisvouradost/">www.facebook.com/najdisvouradost/</a><br><br>
+					</div>
+				</div>
+
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<form method="post" action="#">
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="name" id="name" value="" placeholder="Vaše jméno" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="email" id="email" value="" placeholder="Váš email" />
+									</div>
+									<!-- Break -->
+									<div class="12u$">
+										<textarea name="message" id="message" placeholder="Vaše zpráva" rows="6"></textarea>
+									</div>
+									<!-- Break -->
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Odeslat zprávu" id="submit" /></li>
+											<li><input type="reset" value="Vyčistit" class="alt" /></li>
+											<li id="form-response"></li>
+											<li id="gdpr">Odesláním formuláře souhlasíte s <a href="obchodnipodminky.html" target="_blank">všeobecnými obchodními podmínkami</a> a souhlasíte s <a href="osobniudaje.html" target="_blank">poskytnutím osobních údajů</a>.</li>
+										</ul>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
+				</div>
+			</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/najdisvouradost/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="mailto:kubecova.pavla@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="https://plus.google.com/b/106334972498340527700/106334972498340527700" class="icon fa-google-plus"><span class="label">GooglePlus</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy;Pavla Kubecová. All rights reserved. CSS by Templated, images by Unsplash.
+				</div>
+			</footer>
 
-					<div>
-						<div class="box">
-							<div class="image fit">
-								<img src="images/mckinley-law-58594.jpg" alt="" />
-							</div>
-							<div class="content">
-								<header class="align-center">
-									<h2>Terapie a metody</h2>
-								</header>
-								<ul>
-									<li>Kvantová terapie</li>
-									<li>Osobní konstelace (konstelační techniky)</li>
-                  <li>Reiki, Shamballa 1024</li>
-									<li>Spiritual Response Therapy</li>
-									<li>Metoda EFT</li>
-								</ul>
-									<br />
-										<footer class="align-center">
-											<a href="techniky.html" class="button alt">Více</a>
-										</footer>
-									</div>
-								</div>
-							</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-							<div>
-								<div class="box">
-									<div class="image fit">
-										<img src="images/photo-150.jpeg" alt="" />
-									</div>
-									<div class="content">
-										<header class="align-center">
-											<h2>O mně</h2>
-										</header>
-                      Věřím, že můžeme změnit svůj život, když změníme svoje myšlenky. Věřím, že jak na nás reagují druzí, je odrazem našeho podvědomí. 
-											<br /><br />
-										<footer class="align-center">
-											<a href="Omne.html" class="button alt">Více</a>
-										</footer>
-									</div>
-								</div>
-							</div>
-
-							<div>
-								<div class="box">
-									<div class="image fit">
-										<img src="images/photo-1478809956569-c7ce9654a947.jpeg" alt="" />
-									</div>
-									<div class="content">
-										<header class="align-center">
-
-											<h2>Kontakt</h2>
-										</header>
-											<b>Telefon:</b> +420 732 945 810<br><br>
-                      <b>E-mail:</b> <a href="mailto:kubecova.pavla@gmail.com">kubecova.pavla@gmail.com</a><br><br>
-										<footer class="align-center">
-											<a href="kontakt.html" class="button alt">Více</a>
-										</footer>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-				<!-- Footer -->
-				<footer id="footer">
-					<div class="container">
-						<ul class="icons">
-							<li><a href="https://www.facebook.com/najdisvouradost/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="mailto:kubecova.pavla@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							<li><a href="https://plus.google.com/b/106334972498340527700/106334972498340527700" class="icon fa-google-plus"><span class="label">GooglePlus</span></a></li>
-						</ul>
-					</div>
-
-
-					<div class="copyright">
-						&copy;Pavla Kubecová. All rights reserved. CSS by Templated, images by Unsplash.
-					</div>
-				</footer>
-
-				<!-- Scripts -->
-				<script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/jquery.scrollex.min.js"></script>
-				<script src="assets/js/skel.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<script src="assets/js/main.js"></script>
-
-			</body>
-			</html>
+	</body>
+</html>
